@@ -30,6 +30,8 @@ You need to supply a `.env` file at the ROOT of folder with the following variab
 
 There may be more I've forgotten but your error messages will tell you what's missing. Then run `npm install @somePackage`
 
+You also need a `firebaseConfig.js`. Log into Firebase console in settings. Look for firebaseConfig for javascript.
+
 When you run `npm start` it demos your page.
 
 When you run `npm run build` it creates a build folder with your deployable files.
